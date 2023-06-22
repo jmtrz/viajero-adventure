@@ -1,0 +1,530 @@
+@media screen and (max-width:1445px) {
+ .top-header, .top-dest-section {
+    height: auto;
+  } 
+
+  .top-dest-header-desc1 {
+    font-size: var(--font-size-lg);
+  }
+ 
+  .top-dest-header1{
+    height: auto;
+  }
+
+  .hero-heading1 > .the-best-experience {
+    font-size: var(--font-size-57xl);
+  }
+
+  .destination-list1  p.the-best-experience {
+    font-size: var(--font-size-base);
+  }
+   
+  .services-frame {
+    padding: var(--padding-60xl) var(--padding-119xl);;
+  }
+
+  .header-description {
+    font-size: var(--font-size-7xl);
+    text-align: center;
+  }
+
+  .services-section .header-2 {
+    font-size: var(--font-size-57xl);
+    width: 100%;
+    justify-content: center;
+  }
+
+  .explore-section {
+    padding: var(--padding-sm) var(--padding-81xl);
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .hamburger-icon {
+        display: flex;
+    }
+    .links {
+        display: none;
+    } 
+    .navbar {
+      justify-content: space-between;
+    }
+    .nav-list {
+        justify-content: end;
+    }
+    .hero-heading1 {
+      font-size: var(--font-size-47xl);
+    }
+    .sub-heading {
+      font-size: var(--font-size-16xl);
+    }
+    .top-dest-header-desc {
+      font-size: var(--font-size-5xl);
+    }
+    .top-dest-bohol,
+    .top-dest-boracay,
+    .top-dest-palawan {
+      flex: unset;
+      align-self: stretch;
+    }
+    .destination-list {
+      flex-direction: column;
+    }
+    .top-dest-header-desc1 {
+      font-size: var(--font-size-5xl);
+    }
+    .top-description1 {
+      padding-left: var(--padding-61xl);
+      padding-right: var(--padding-61xl);
+      box-sizing: border-box;
+    }
+    .top-dest-boracay1,
+    .top-dest-palawan1 {
+      flex: unset;
+      align-self: stretch;
+    }
+    .description5 {
+      width: auto;
+      align-self: unset;
+      padding-left: var(--padding-21xl);
+      padding-right: var(--padding-21xl);
+      box-sizing: border-box;
+    }
+    .top-dest-bohol1 {
+      flex: unset;
+      align-self: stretch;
+    }
+    .destination-list1 {
+      flex-direction: column;
+    }
+    .explore-header {
+      font-size: var(--font-size-25xl);
+      text-align: center;
+    }
+    .title6 {
+      align-items: center;
+      justify-content: center;
+    }
+    .belgium,
+    .finland {
+      font-size: var(--font-size-9xl);
+    }
+    .cities-list {
+      flex: unset;
+      align-self: stretch;
+    }
+    .explore-section,
+    .title-parent {
+      flex-direction: column;
+    }
+    .explore-section {
+      padding-top: var(--padding-61xl);
+      padding-bottom: var(--padding-61xl);
+      box-sizing: border-box;
+    }
+}
+  
+@media screen and (max-width: 960px) {    
+    .nav-list{
+      background-color: rgba(46, 46, 46, 0.5);
+      -webkit-backdrop-filter: blur(10px); 
+      backdrop-filter: blur(10px);
+      position: absolute;
+       top: 0;
+      left: 0;
+      right: 0;
+
+      height: 100vh;
+      display: flex; 
+      
+      transform: translateX(100);
+            
+      visibility: hidden;
+      
+      flex-direction: column;
+      justify-content: center;     
+      align-items: center; 
+      transition: all 0.5s;
+          
+    }
+    .links {
+      display: block;
+      /* height: 100%;
+      width: 100%; */
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+    }
+    .links > li {
+      padding: 1.5rem;
+    }
+    .hamburger-icon {
+      display: flex;
+    }
+    .navbar {
+        padding: 0 1rem;
+    }
+
+    .hero-section .hero-heading {
+      justify-content: flex-start;
+      padding-top: 10rem;
+    }
+    .hero-section-with-group {
+      height: 140vh;
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .carg-group {
+        height: 100%;        
+    }
+
+    .card-group {
+        height: 100%;
+    }
+
+    #home .card-group-list {      
+        position: relative;
+        top: 70.1%;
+        right: 0%;
+        left: 0%;
+        /* bottom: 2.85%; */
+        
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        height: 27%;        
+    }
+
+    #home .card-group-list .cardd-divider {
+      position: relative;
+    }
+
+    .best-destinations-ready,
+    .experience-tour-guides,
+    .card-p-bookings {
+        font-size: var(--font-size-lg);
+        height: 100%;
+    }
+
+    .hero-heading1 {
+      font-size: var(--font-size-27xl);
+    }
+    .sub-heading {
+      font-size: var(--font-size-11xl);
+    }
+    .top-dest-bohol,
+    .top-dest-boracay,
+    .top-dest-palawan {
+      flex: unset;
+      align-self: stretch;
+    }
+
+    .destination-list {
+      flex-direction: column;
+    }
+    .top-dest-header1 {
+      font-size: var(--font-size-37xl);
+    }
+    .top-dest-header-desc1 {
+      font-size: var(--font-size-lg);
+    }
+
+    .top-dest-section1 {
+      /* gap: var(--gap-17xl);
+      padding-left: var(--padding-11xl);
+      padding-right: var(--padding-11xl);
+      box-sizing: border-box; */
+      height: 100%;
+    }
+
+    .top-dest-bohol1,
+    .top-dest-boracay1,
+    .top-dest-palawan1 {
+      flex: unset;
+      align-self: stretch;
+    }
+    .destination-list1 {
+      flex-direction: column;
+      height: 100%;
+    }
+    .services1 {
+      font-size: var(--font-size-3xl);
+    }
+    .services-header1 {
+      font-size: var(--font-size-37xl);
+      flex-shrink: 1;
+    }
+    .services-desc-header {
+      font-size: var(--font-size-lg);
+      text-align: center;      
+    }
+    .services-card-header {
+      font-size: var(--font-size-3xl);
+    }
+    .services-card-desc-header {
+      font-size: var(--font-size-lg);
+    }
+
+    .header-description {
+      font-size: var(--font-size-lg);
+    }
+    .booking-img-icon {
+      width: 3.13rem;
+      height: 3.13rem;
+    }
+    .services-card-header1 {
+      font-size: var(--font-size-3xl);
+    }
+    .hotel-img-icon {
+      width: 3.13rem;
+      height: 3.56rem;
+    }
+    .services-card-header2 {
+      font-size: var(--font-size-3xl);
+    }
+    .travel-img-icon {
+      width: 3.13rem;
+      height: 4.38rem;
+    }
+    .hand-img-icon {
+      width: 3.13rem;
+      height: 3.13rem;
+    }
+    .services-list {
+      gap: var(--gap-7xl);
+    }
+    .card-australia,
+    .card-belgium,
+    .card-finland,
+    .cities-list {
+      flex: unset;
+      align-self: stretch;
+    }
+    .cities-list,
+    .title-parent {
+      flex-direction: column;
+    }
+
+    .title-parent {
+      height: 100%;
+    }
+
+    .title6 {
+      width: 100%;
+    }
+    .bottom-logo{
+      width: 100%;
+    }
+
+    .viajero-logo-parent {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;      
+      width: 100%;
+    }
+
+    .viajero-logo-parent .divider {
+      width: 100%;
+      padding: 0 2rem;
+    }
+    
+  }
+
+  
+@media screen and (max-width: 420px) {
+    .navbar {
+      /* gap: var(--gap-331xl); */
+      /* padding: 0 0.2rem; */
+      box-sizing: border-box;
+    }
+    .hero-section-with-group {
+      height: 155vh;
+    }
+    .hero-section .hero-heading {      
+      padding-top: 15rem;
+    }
+    .hero-heading1 .the-best-experience{
+      font-size: var(--font-size-27xl);
+    }
+    .sub-heading {
+      font-size: var(--font-size-base);
+      height: 3rem;
+    }
+    .book-now-text {
+      font-size: var(--font-size-7xl);
+    }
+    .booknow-btn,
+    .hero-heading {
+      gap: var(--gap-8xs);
+      box-sizing: border-box;
+    }
+    .booknow-btn {
+      align-items: flex-start;
+      justify-content: flex-start;
+      padding-top: var(--padding-11xs);
+    }
+    .hero-heading {
+      padding-left: 0;
+    }
+    .hero-section {
+      gap: var(--gap-241xl);
+      align-items: center;
+      justify-content: center;
+      padding: var(--padding-3xs) var(--padding-16xl);
+      box-sizing: border-box;
+    }
+
+    #home .card-group-list {            
+      top: 65.1%;       
+    }
+
+    .carg-group, .card-group {
+      max-width: 22rem;
+    }
+
+    .destinations1 {
+      font-size: var(--font-size-xs);
+    }
+
+    .top-dest-section {
+      padding: 2rem 1rem;
+    }
+    .top-dest-header {
+      font-size: var(--font-size-27xl);
+    }
+    .top-dest-header-desc {
+      font-size: var(--font-size-xs);
+    }
+    .top-description {
+      padding-left: var(--padding-mini);
+      padding-right: var(--padding-mini);
+      box-sizing: border-box;
+    }
+    .experience-paradise-on-container {
+      font-size: var(--font-size-sm);
+    }
+    .top-dest-boracay,
+    .top-dest-palawan {
+      flex: unset;
+      align-self: stretch;
+    }
+    .discover-the-untouched-container {
+      font-size: var(--font-size-sm);
+    }
+    .top-dest-bohol {
+      flex: unset;
+      align-self: stretch;
+    }
+    .destination-list {
+      flex-direction: column;
+    }
+    .top-dest-section1 {
+      gap: var(--gap-17xl);
+      padding-left: var(--padding-11xl);
+      padding-right: var(--padding-11xl);
+      box-sizing: border-box;
+    }
+    .destinations2 {
+      font-size: var(--font-size-xs);
+    }
+    .top-dest-header1 {
+      font-size: var(--font-size-27xl);
+    }
+    .top-dest-header-desc1 {
+      font-size: var(--font-size-xs);
+    }
+    .top-description1 {
+      gap: var(--gap-0);
+      padding-left: var(--padding-mini);
+      padding-top: 0;
+      padding-right: var(--padding-mini);
+      box-sizing: border-box;
+    }
+    .boracay-details1,
+    .top-dest-boracay1 {
+      padding-bottom: 0;
+      box-sizing: border-box;
+    }
+    .boracay-details1 {
+      gap: var(--gap-0);
+    }
+    .top-dest-boracay1 {
+      flex: unset;
+      align-self: stretch;
+    }
+    .explore-the-natural-container1 {
+      font-size: var(--font-size-xs);
+    }
+    .top-dest-palawan1 {
+      flex: unset;
+      align-self: stretch;
+    }
+    .discover-the-untouched-container2 {
+      font-size: var(--font-size-xs);
+    }
+    .description5 {
+      align-self: stretch;
+      width: auto;
+      flex: 1;
+      padding-left: 0;
+      padding-right: 0;
+      box-sizing: border-box;
+    }
+    .details5 {
+      padding-left: var(--padding-21xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .top-dest-bohol1 {
+      flex: unset;
+      align-self: stretch;
+    }
+    .destination-list1 {
+      flex: 1;
+      flex-direction: column;
+      gap: var(--gap-xl);
+      align-items: center;
+      justify-content: flex-start;
+      padding-top: 0;
+      padding-bottom: 0;
+      box-sizing: border-box;
+      padding: 0 0.25rem;
+    }
+
+    .services-frame {
+      padding: var(--padding-16xl) var(--padding-lg);
+      height: 100%;
+    }
+
+    .services-header1 {
+      font-size: var(--font-size-17xl);
+    }
+    .services-card-desc-header {
+      font-size: var(--font-size-xs);
+    }
+    .header-2 {
+      padding-left: 0;
+      padding-right: 0;
+      box-sizing: border-box;
+    }
+    .header-description {
+      align-self: stretch;
+      width: auto;
+      flex: 1;
+    }
+
+    .explore-section {
+      padding: var(--padding-sm) var(--padding-lg);
+    }
+    .explore-header {
+      font-size: var(--font-size-16xl);
+    }
+    .copyright-section{
+      font-size: var(--font-size-sm);
+    }
+  }
+  
