@@ -1,8 +1,10 @@
 @media screen and (max-width:1445px) {
- .top-header, .top-dest-section {
+ .top-header{
     height: auto;
   } 
-
+  .top-dest-section {
+      height: 100%;
+  }
   .top-dest-header-desc1 {
     font-size: var(--font-size-lg);
   }
@@ -17,6 +19,10 @@
 
   .destination-list1  p.the-best-experience {
     font-size: var(--font-size-base);
+  }
+
+  .destination-list1 {
+    height: 100%;
   }
    
   .services-frame {
@@ -56,9 +62,16 @@
     .hero-heading1 {
       font-size: var(--font-size-47xl);
     }
+
+    .card-group-list {
+      flex-direction: column;
+      top: 70%;      
+      align-items: center;
+    }
     .sub-heading {
       font-size: var(--font-size-16xl);
     }
+
     .top-dest-header-desc {
       font-size: var(--font-size-5xl);
     }
@@ -334,7 +347,6 @@
     
   }
 
-  
 @media screen and (max-width: 420px) {
     .navbar {
       /* gap: var(--gap-331xl); */
@@ -378,9 +390,9 @@
       box-sizing: border-box;
     }
 
-    #home .card-group-list {            
+    /* #home .card-group-list {            
       top: 65.1%;       
-    }
+    } */
 
     .carg-group, .card-group {
       max-width: 22rem;
